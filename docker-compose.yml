@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+  nodejs-typescript-webpack-jest-docker-skeleton-service:
+    build: .
+#    image: registry.digitalocean.com/uniapi/uniapi-google-search-api:${VERSION}
+    restart: always
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env

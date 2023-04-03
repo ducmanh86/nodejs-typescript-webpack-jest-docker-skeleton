@@ -1,0 +1,25 @@
+# System
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+.fleet/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# ESlint
+.eslintcache
+
+# StyleLint
+.stylelintcache
+
+node_modules/
+.env
+credential.json
+
+dist/
